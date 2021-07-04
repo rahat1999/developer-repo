@@ -65,7 +65,7 @@ p{
 .Experiences{
     background-image: url(./images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position-y: bottom;
+    background-position-y:center;
     margin-top: 100px;
 }
 #joniour-color{
