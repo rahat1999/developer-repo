@@ -1,8 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
     
 }
 h1{
@@ -19,9 +21,10 @@ h1{
 .box1 img{
     width: 80%  ;
 }
+  /*
 p{
-    text-align: justify;
-}
+   text-align: justify; 
+}*/
 .link-button{
     color: white;
     text-decoration: none;
@@ -33,4 +36,17 @@ p{
 }
 .link-button:hover{
     background-image: linear-gradient(rgba(255, 166, 0, 0.883),rgba(255, 99, 71, 0.863));
+}
+.top-banner{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+  
+/* section 02 */
+
+.dream-bg{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 100px;
 }
