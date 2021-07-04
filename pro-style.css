@@ -10,13 +10,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orange;
     text-transform: uppercase;
 }
 .box1{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 .box1 img{
     width: 80%  ;
@@ -49,4 +52,22 @@ p{
     background-repeat: no-repeat;
     background-position: right;
     margin-top: 100px;
+}
+.experience-section{
+    width: 40%;
+    box-shadow: gray 10px 10px 40px ;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: orange 10px solid;
+   
+}
+.Experiences{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+.color-rgba{
+    border-left: rgb(orange, blue) 10px solid;
 }
